@@ -1,15 +1,7 @@
 [build]
   base = "/"
-  command = "pip install --upgrade pip && pip install -r requirements.txt"
+  command = "bash ./build.sh"
   publish = "templates"
-  functions = "functions"
 
 [build.environment]
-  PYTHON_VERSION = "3.8"
-  NETLIFY_USE_YARN = "false"
-  NETLIFY_USE_NPM = "false"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  PYTHON_VERSION = "3.8.12"
