@@ -1,6 +1,6 @@
-flask==2.3.3
-pillow==9.5.0
-rembg==2.0.50
-numpy==1.24.3
-opencv-python-headless==4.8.0.74
-
+flask
+pillow
+rembg
+numpy
+opencv-python-headless
+onnxruntime
