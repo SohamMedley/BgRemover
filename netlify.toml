@@ -2,7 +2,7 @@
   # Install your dependencies
   command = "pip install -r requirements.txt"
   # You might adjust the publish directory if needed
-  publish = "templates"
+  publish = "static"
 
 [build.environment]
   # Force the use of precompiled Python to avoid build-time compilation issues
