@@ -14,3 +14,5 @@ pyenv global 3.8.12
 # Install dependencies
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+
+#temp
