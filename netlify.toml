@@ -1,9 +1,6 @@
 [build]
-  # Install your dependencies
-  command = "pip install -r requirements.txt"
-  # You might adjust the publish directory if needed
-  publish = "static"
+  command = "pip install -r requirements.txt && python app.py"
+  publish = "static"  # Ensure this matches the directory for static files
 
 [build.environment]
-  # Force the use of precompiled Python to avoid build-time compilation issues
   MISE_PYTHON_COMPILE = "false"
