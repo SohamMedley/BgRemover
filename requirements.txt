@@ -1,5 +1,5 @@
-flask
-pillow
+Flask
+Pillow
 rembg
 numpy
 opencv-python-headless
