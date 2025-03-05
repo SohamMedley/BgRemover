@@ -1,14 +1,13 @@
 [build]
-  # Install your dependencies
-  command = "pip install -r requirements.txt"
-  # You might adjust the publish directory if needed
+  base = "/"
+  command = "pip install --upgrade pip && pip install -r requirements.txt"
   publish = "templates"
   functions = "functions"
 
 [build.environment]
-  # Force the use of precompiled Python to avoid build-time compilation issues
-  MISE_PYTHON_COMPILE = "false"
   PYTHON_VERSION = "3.8"
+  NETLIFY_USE_YARN = "false"
+  NETLIFY_USE_NPM = "false"
 
 [[redirects]]
   from = "/*"
