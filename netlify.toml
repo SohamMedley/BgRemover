@@ -1,7 +1,0 @@
-[build]
-  base = "/"
-  command = "bash ./build.sh"
-  publish = "templates"
-
-[build.environment]
-  PYTHON_VERSION = "3.9.16"
